@@ -15,11 +15,12 @@ const Trabajo: FunctionComponent<Job> = (props) => {
             <p> Tipos de trabajo: {job_types} </p>
             <Button variant = "Solicitud" role="link" onClick={() => <a href={url}/>}> Solicitar </Button> 
             <Button variant = "Guardar"> Guardar </Button>
+          
             <hr></hr>
             <h2>Conoce al equipo de contratación</h2>
-            
             <Button variant = "Mensaje"> Mensaje </Button>
             <hr></hr>
+            
             <h3> Acerca del empleo </h3>
             <p dangerouslySetInnerHTML={{ __html: description }}> </p>
             <p> Creación de la página: {created_at} </p>
