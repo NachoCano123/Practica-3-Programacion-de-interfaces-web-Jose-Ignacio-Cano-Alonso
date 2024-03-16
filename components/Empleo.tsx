@@ -17,7 +17,7 @@ const Trabajo: FunctionComponent<Job> = (props) => {
             <Button variant = "Guardar"> Guardar </Button>
             <hr></hr>
             <h2>Conoce al equipo de contratación</h2>
-            <image class="imagen" src="https://www.labsaenzrenauld.com/wp-content/uploads/2020/10/Perfil-hombre-ba%CC%81sico_738242395.jpg"/>
+            
             <Button variant = "Mensaje"> Mensaje </Button>
             <hr></hr>
             <h3> Acerca del empleo </h3>
